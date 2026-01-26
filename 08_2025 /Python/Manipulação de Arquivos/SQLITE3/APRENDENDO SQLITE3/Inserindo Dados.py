@@ -1,7 +1,7 @@
 import sqlite3
 import os
 import sys
-opcao=input("ESCOLHA UMA OPÇÃO: 1,2,3 \n 1-CRIAR BANCO E INSERIR DADOS \n 2-SAIR \n")
+opcao=input("ESCOLHA UMA OPÇÃO: 1 ou 2 \n 1-CRIAR BANCO E INSERIR DADOS \n 2-SAIR \n")
 
 match opcao:
     case "1":
